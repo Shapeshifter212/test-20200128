@@ -1,0 +1,44 @@
+1. How to init NPM to new project?
+Terminal: npm init
+
+2. How to install and save npm packages?
+Terminal: npm install 'package name'
+
+3. How to install webpack to your project and where to wright configurations?
+Install Node.js
+Terminal: npm install --save-dev webpack
+          npm install --save-dev webpack-cli
+
+4. How and where need to add webpack build and watch command?
+package.json: enter line - "build": "webpack"
+
+5. How to specify entry point in webpack configuration?
+webpack.config.js: entry: './src/index.js',
+
+6. How to specify entry file output in webpack configuration?
+webpack.config.js:  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'public'),
+  },
+
+7. How to specify entry file output path in webpack configuration?
+./[foldername]/[filename]
+
+8. How to create new repository in Github?
+Login to Github. Create repsitory
+
+9. How to init GIT in project?
+Download Github.
+Terminal: git init
+
+10. How to add all changes/files to git index?
+Terminal: git add.
+
+11. How to commit message for new changes?
+Terminal: git commit -m "commentary" 
+
+12. How to add remote URL to GIT project?
+Terminal: git remote add origin https://github.com/username/gitname.git
+
+13. How to push changes to master?
+Terminal: git push -u origin master
